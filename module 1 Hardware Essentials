@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foundations of Computing – Module 1</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            background-color: #f4f6f8;
+            line-height: 1.6;
+        }
+        header {
+            background: #1f3c88;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background: #162447;
+            padding: 10px;
+            position: sticky;
+            top: 0;
+        }
+        nav a {
+            color: white;
+            margin: 0 10px;
+            text-decoration: none;
+            font-size: 14px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            padding: 20px;
+            max-width: 1100px;
+            margin: auto;
+            background: white;
+        }
+        h2 {
+            color: #1f3c88;
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 5px;
+        }
+        h3 {
+            color: #162447;
+        }
+        ul {
+            margin-left: 20px;
+        }
+        footer {
+            background: #1f3c88;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Foundations of Computing</h1>
+    <h4>Module 1: Hardware Essentials</h4>
+    <h5>By Cyril P Jose</h5>
+
+</header>
+
+<nav>
+    <a href="#architecture">Computer Architecture</a>
+    <a href="#memory">Memory Hierarchy</a>
+    <a href="#registers">Registers</a>
+    <a href="#cache">Cache</a>
+    <a href="#ram">RAM</a>
+    <a href="#virtual">Virtual Memory</a>
+    <a href="#motherboard">Motherboard</a>
+    <a href="#io">I/O Devices</a>
+    <a href="#buses">Buses</a>
+    <a href="#firmware">Firmware</a>
+    <a href="#boot">Boot Process</a>
+</nav>
+
+<div class="container">
+
+<section id="architecture">
+    <h2>1. Computer Architecture</h2>
+    <p>A computer system follows the Von Neumann architecture consisting of CPU, memory, I/O devices, and system buses.</p>
+    <a href="https://www.bing.com/ck/a?!&&p=db666918bf4b320b98da3710bef644e4036a30120d64750f647b0372437ee3e1JmltdHM9MTc2OTgxNzYwMA&ptn=3&ver=2&hsh=4&fclid=357f2228-01fc-629c-0885-3607005163be&psq=computer+architecture&u=a1aHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2kvQ29tcHV0ZXJfYXJjaGl0ZWN0dXJl">Click to know more about architecture</a>
+    <h3>Central Processing Unit (CPU)</h3>
+    <ul>
+        <li><b>ALU:</b> Performs arithmetic and logical operations</li>
+        <li><b>Control Unit:</b> Directs operations and instruction execution</li>
+        <li><b>Registers:</b> High-speed storage inside CPU</li>
+    </ul>
+</section>
+
+<section id="memory">
+    <h2>2. Memory Hierarchy</h2>
+    <p>Memory is arranged based on speed, cost, and capacity.</p>
+    <ul>
+        <li>Registers</li>
+        <li>Cache Memory</li>
+        <li>Main Memory (RAM)</li>
+        <li>Secondary Storage</li>
+        <li>Tertiary Storage</li>
+        <li>Virtual Memory</li>
+    </ul>
+    <a href="#https://www.bing.com/ck/a?!&&p=4b73716092b88acca71f24f5dedbc9b4c4c02e1ab919b9fa7df99f5a52700bfeJmltdHM9MTc2OTgxNzYwMA&ptn=3&ver=2&hsh=4&fclid=357f2228-01fc-629c-0885-3607005163be&psq=memory+hierarchy&u=a1aHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2kvTWVtb3J5X2hpZXJhcmNoeQ">Click to know more about memory Hierarchy</a>
+</section>
+
+<section id="registers">
+    <h2>3. Registers</h2>
+    <p>Registers are small, fast storage locations inside the CPU.</p>
+    <ul>
+        <li>Accumulator (AC)</li>
+        <li>Program Counter (PC)</li>
+        <li>Instruction Register (IR)</li>
+        <li>Memory Address Register (MAR)</li>
+        <li>Memory Data Register (MDR)</li>
+        <li>Status Register</li>
+    </ul>
+    <a href="https://www.bing.com/ck/a?!&&p=a68c24b7332df2bc797a95f3fc53df56673036d8f974f267123ab36ccf58d537JmltdHM9MTc2OTgxNzYwMA&ptn=3&ver=2&hsh=4&fclid=357f2228-01fc-629c-0885-3607005163be&psq=registers+in+cpu&u=a1aHR0cHM6Ly93d3cudGhlaW90YWNhZGVteS5jby9ibG9nL3JlZ2lzdGVycy1pbi1jcHUv">More about Registers</a>
+</section>
+
+<section id="cache">
+    <h2>4. Cache Memory</h2>
+    <p>Cache stores frequently accessed data to speed up CPU processing.</p>
+    <ul>
+        <li>L1 Cache – Fastest</li>
+        <li>L2 Cache – Moderate</li>
+        <li>L3 Cache – Shared among cores</li>
+    </ul>
+    <a href="https://www.bing.com/ck/a?!&&p=61937d54c0be9f5c77d2d955847e1b4e4ecada1d1ccaa87720c3702196c4f985JmltdHM9MTc2OTgxNzYwMA&ptn=3&ver=2&hsh=4&fclid=357f2228-01fc-629c-0885-3607005163be&psq=cache+memory&u=a1aHR0cHM6Ly93d3cuZ2Vla3Nmb3JnZWVrcy5vcmcvY29tcHV0ZXItc2NpZW5jZS1mdW5kYW1lbnRhbHMvY2FjaGUtbWVtb3J5Lw">More about Cache</a>
+</section>
+
+<section id="ram">
+    <h2>5. RAM</h2>
+    <p>RAM is volatile memory used as the working space of the computer.</p>
+    <ul>
+        <li>DRAM</li>
+        <li>SRAM</li>
+        <li>DDR1 – DDR5</li>
+    </ul>
+     <a href="https://www.bing.com/ck/a?!&&p=35ec484f367a247b7545377efcad7404bd8a176b950003a2c04207550832b8faJmltdHM9MTc2OTgxNzYwMA&ptn=3&ver=2&hsh=4&fclid=357f2228-01fc-629c-0885-3607005163be&psq=ram&u=a1aHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2kvUmFuZG9tLWFjY2Vzc19tZW1vcnk">More about RAM</a>
+</section>
+
+<section id="virtual">
+    <h2>6. Virtual Memory</h2>
+    <p>Virtual memory uses storage space as an extension of RAM.</p>
+    <ul>
+        <li>Paging</li>
+        <li>Swap Space</li>
+        <li>MMU</li>
+    </ul>
+    <a href="https://www.bing.com/ck/a?!&&p=cebe41e3c554323813b773bbbd8845d646c2763296a2b7427128dd59264796faJmltdHM9MTc2OTgxNzYwMA&ptn=3&ver=2&hsh=4&fclid=357f2228-01fc-629c-0885-3607005163be&psq=virtual+memory&u=a1aHR0cHM6Ly93d3cuZ2Vla3Nmb3JnZWVrcy5vcmcvb3BlcmF0aW5nLXN5c3RlbXMvdmlydHVhbC1tZW1vcnktaW4tb3BlcmF0aW5nLXN5c3RlbS8">More about Virtual Memory</a>
+</section>
+
+<section id="motherboard">
+    <h2>7. Motherboard</h2>
+    <p>The motherboard connects all computer components.</p>
+    <ul>
+        <li>CPU Socket</li>
+        <li>RAM Slots</li>
+        <li>Chipset</li>
+        <li>Expansion Slots</li>
+        <li>BIOS/UEFI</li>
+    </ul>
+    <a href="https://www.bing.com/ck/a?!&&p=90913162d145f0404aa567fe8ef93bcdbdc8c86f3cf4ffd54911dbf1cadf8f9fJmltdHM9MTc2OTgxNzYwMA&ptn=3&ver=2&hsh=4&fclid=357f2228-01fc-629c-0885-3607005163be&psq=motherboard&u=a1aHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2kvTW90aGVyYm9hcmQ">More about Motherboard</a>
+</section>
+
+<section id="io">
+    <h2>8. Input & Output Devices</h2>
+    <h3>Input Devices</h3>
+    <ul>
+        <li>Keyboard</li>
+        <li>Mouse</li>
+        <li>Scanner</li>
+        <li>Microphone</li>
+    </ul>
+
+    <h3>Output Devices</h3>
+    <ul>
+        <li>Monitor</li>
+        <li>Printer</li>
+        <li>Speakers</li>
+        <li>Projector</li>
+    </ul>
+    <a href="https://www.bing.com/ck/a?!&&p=3d33e1f7f9b5b7f96cf74a851e1ff8f3c8b6c9e113b58a3b8c26470a4f1e873eJmltdHM9MTc2OTgxNzYwMA&ptn=3&ver=2&hsh=4&fclid=357f2228-01fc-629c-0885-3607005163be&psq=input+and+output+devices&u=a1aHR0cHM6Ly93d3cuZ2Vla3Nmb3JnZWVrcy5vcmcvY29tcHV0ZXItc2NpZW5jZS1mdW5kYW1lbnRhbHMvaW5wdXQtYW5kLW91dHB1dC1kZXZpY2VzLw">More about I/O Devices</a>
+</section>
+
+<section id="buses">
+    <h2>9. Buses</h2>
+    <ul>
+        <li>Data Bus</li>
+        <li>Address Bus</li>
+        <li>Control Bus</li>
+        <li>PCIe, USB, SATA</li>
+    </ul>
+    <a href="https://www.bing.com/ck/a?!&&p=19734e3a513945d6795cb57038a20ef86947b6df21bbd4ad7cc14d0b4f491887JmltdHM9MTc2OTgxNzYwMA&ptn=3&ver=2&hsh=4&fclid=357f2228-01fc-629c-0885-3607005163be&psq=buses+in+computer+architecture&u=a1aHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2kvQnVzXyhjb21wdXRpbmcp">More about Buses</a>
+</section>
+
+<section id="firmware">
+    <h2>10. Firmware</h2>
+    <p>Firmware is permanent software stored in hardware.</p>
+    <ul>
+        <li>BIOS/UEFI</li>
+        <li>Embedded Systems</li>
+        <li>Router Firmware</li>
+    </ul>
+    <a href="https://www.bing.com/ck/a?!&&p=643cce3efdcfca9df54283d0a1ed4e07f1e7cd4cd47d6e022dcab58667515c20JmltdHM9MTc2OTgxNzYwMA&ptn=3&ver=2&hsh=4&fclid=357f2228-01fc-629c-0885-3607005163be&psq=firmware&u=a1aHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2kvRmlybXdhcmU">More about Firmware</a>
+</section>
+
+<section id="boot">
+    <h2>11. Boot Process</h2>
+    <ol>
+        <li>Power On & POST</li>
+        <li>BIOS/UEFI Initialization</li>
+        <li>Bootloader</li>
+        <li>Kernel Loading</li>
+        <li>OS Initialization</li>
+    </ol>
+    <a href="https://www.bing.com/ck/a?!&&p=13cc812a60542d62b9bfd983590ed990d07cb1235dacfe533316c74757ebc293JmltdHM9MTc2OTgxNzYwMA&ptn=3&ver=2&hsh=4&fclid=357f2228-01fc-629c-0885-3607005163be&psq=boot+process&u=a1aHR0cHM6Ly9uZXR3b3JrZW5jeWNsb3BlZGlhLmNvbS9ib290Lw"> More about Boot Process</a>
+</section>
+
+</div>
+
+<footer>
+    <p>© Foundations of Computing – Module 1</p>
+</footer>
+
+</body>
+</html>
