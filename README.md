@@ -1,5 +1,10 @@
-# 🌐 First Webpage
+# FOC module 1 hardware essentials Webpage
 
-This is my **webpage**, created using **HTML and basic CSS**.
+
+
+---
+## 🔗 Live Website
+
+🌍 http://127.0.0.1:5500/index.html
 
 ---
